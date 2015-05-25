@@ -1,0 +1,105 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityDemo1"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="হোম"
+        android:id="@+id/home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_light" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="শিক্ষকমণ্ডলী"
+        android:id="@+id/teacher"
+        android:layout_below="@+id/home"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_dark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ই.এম.সি.এস"
+        android:id="@+id/emcs"
+        android:layout_below="@+id/teacher"
+        android:layout_alignLeft="@+id/teacher"
+        android:layout_alignStart="@+id/teacher"
+        android:textStyle="bold"
+        android:background="@color/accent_material_light"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ছাত্রছাত্রী"
+        android:id="@+id/student"
+        android:layout_below="@+id/emcs"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_dark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="যোগাযোগ"
+        android:id="@+id/communication"
+        android:layout_below="@+id/student"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_light"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কোর্সেস"
+        android:id="@+id/courses"
+        android:layout_below="@+id/communication"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/accent_material_dark"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ভবন"
+        android:id="@+id/vobon"
+        android:layout_below="@+id/courses"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_light"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="এচিভম্যান্ট"
+        android:id="@+id/achivement"
+        android:layout_below="@+id/vobon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:background="@color/accent_material_dark"/>
+</RelativeLayout>
+    </ScrollView>

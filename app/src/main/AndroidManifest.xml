@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janina.deomo1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivityDemo1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".com.home.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".com.home.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".com.teacher.TeacherActivity"
+            android:label="@string/title_activity_teacher" >
+        </activity>
+        <activity
+            android:name=".com.student.StudentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name=".com.teacher.ShorifSirActivity"
+            android:label="@string/title_activity_shorif_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.ZahidSirActivity"
+            android:label="@string/title_activity_zahid_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.HanifSirActivity"
+            android:label="@string/title_activity_hanif_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.JugulActivity"
+            android:label="@string/title_activity_jugul" >
+        </activity>
+        <activity
+            android:name=".com.teacher.JugulSirActivity"
+            android:label="@string/title_activity_jugul_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.ImdadSirActivity"
+            android:label="@string/title_activity_imdad_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.HkSirActivity"
+            android:label="@string/title_activity_hk_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.GmSirActivity"
+            android:label="@string/title_activity_gm_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.IsratMamActivity"
+            android:label="@string/title_activity_israt_mam" >
+        </activity>
+        <activity
+            android:name=".com.teacher.LitonSirActivity"
+            android:label="@string/title_activity_liton_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.ChoynSirActivity"
+            android:label="@string/title_activity_choyn_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.SonjitSirActivity"
+            android:label="@string/title_activity_sonjit_sir" >
+        </activity>
+        <activity
+            android:name=".com.teacher.TanjilaMamActivity"
+            android:label="@string/title_activity_tanjila_mam" >
+        </activity>
+        <activity
+            android:name=".com.teacher.ToriMamActivity"
+            android:label="@string/title_activity_tori_mam" >
+        </activity>
+    </application>
+
+</manifest>

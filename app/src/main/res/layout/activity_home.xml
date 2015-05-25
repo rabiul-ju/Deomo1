@@ -1,0 +1,57 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    android:id="@+id/scrollView">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    tools:context="com.example.janina.deomo1.com.home.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:src="@drawable/home"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/homeDescription"
+        android:layout_below="@+id/home"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" মেইন মেনু "
+        android:id="@+id/main_menu"
+        android:layout_below="@id/homeDescription"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:background="#ff19a3d0"
+        android:textColor="#ff5d0024"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="পরবর্তী"
+        android:id="@+id/nextTeacher"
+        android:layout_below="@+id/homeDescription"
+        android:layout_alignTop="@+id/main_menu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:background="#ff19a3d0"
+        android:textColor="#ff5d0024"/>
+</RelativeLayout>
+</ScrollView>
