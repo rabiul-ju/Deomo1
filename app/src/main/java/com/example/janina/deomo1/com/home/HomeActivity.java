@@ -58,7 +58,7 @@ public class HomeActivity extends Activity {
     }
 
     private void show() {
-        homeDescription.setText("aktfpasofapofpasokfpoaf\n"+"Department of Computer Science and engineering\n"+"Jahangirnagar University");
+        homeDescription.setText(R.string.description_cse_ju);
 
 
     }
